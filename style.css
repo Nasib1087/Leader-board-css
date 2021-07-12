@@ -98,6 +98,7 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 23px;
    
+   
 }
 .course .course-banner img{
     width: 224px;
@@ -113,9 +114,9 @@ hr{
     color: rgb(185, 185, 174);
 }
 .course-raings{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 .course-meyad{
     background: rgb(182, 101, 117);
@@ -137,7 +138,7 @@ media queary
         grid-template-columns: repeat(1, 1fr);
 
     }
-    .player,.blog, .course{
+    .player,.blog{
         flex-direction: column;
     }
 
