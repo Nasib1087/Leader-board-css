@@ -128,12 +128,12 @@ hr{
 media queary 
 -----------------------------------------------------*/
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width: 600px) {
     .container{
         width: 100%;
     }
     .players, .blogs, .courses{
-        background-color: rgb(216, 205, 207);
+        background-color: rgb(218, 125, 142);
         display: grid;
         grid-template-columns: repeat(1, 1fr);
 
